@@ -30,8 +30,7 @@ We build deep learning models to classify animal sounds (**dog**, **cat**, **bir
 
 The end goal is to build a clean, reproducible pipeline and compare a simple CNN baseline against more advanced architectures and transfer-learning–based approaches.
 
-![Mel-Spectrograms](images/1_mel_spectrograms.png)
-_Mel-spectrograms of dog, cat, and bird sounds - the 2D representations our CNN processes_
+
 
 **Key Results:**
 
