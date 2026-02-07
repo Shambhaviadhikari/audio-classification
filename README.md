@@ -6,7 +6,7 @@ This project is for **CSCI 6366: Neural Networks & Deep Learning** at The George
 
 ## **FINAL SUBMISSION NOTEBOOK**
 
-** PRIMARY SUBMISSION:** `FINAL_project_submission.ipynb` (located in both the root directory and `notebooks/` folder)
+ `FINAL_project_submission.ipynb` 
 
 **This is our final, comprehensive submission notebook that consolidates all our work:**
 
@@ -18,9 +18,6 @@ This project is for **CSCI 6366: Neural Networks & Deep Learning** at The George
 - Complete visualizations, confusion matrices, and training curves
 - Detailed analysis, key findings, and conclusions
 
-**All other notebooks in the `notebooks/` folder are exploratory/experimental work.** We combined the best parts from those notebooks into the final submission notebook for a complete, cohesive presentation of our project.
-
----
 
 ## Project Overview
 
@@ -88,22 +85,6 @@ Properties:
   - `cat/` – WAV files labeled as cat
   - `bird/` – WAV files labeled as bird
 
-- `notebooks/`
-
-  - **`FINAL_project_submission.ipynb`** – Same as above (also in root directory)
-  - **Note:** The following notebooks are **exploratory/experimental work**. We combined the best parts from these into the final submission notebook:
-  - `01_explore_audio.ipynb` – EDA on waveforms and Mel-spectrograms; visual comparison of classes
-  - `02_cnn_baseline.ipynb` – baseline CNN training + evaluation on Mel-spectrogram "images"
-  - `02_crnn_explore.ipynb` – CRNN (CNN + Bidirectional GRU) experiments on Mel-spectrograms
-  - `02_ViT_exlore.ipynb` – Vision Transformer–style classifier on Mel-spectrogram patches
-  - `03_cnn_improved.ipynb` – improved CNN experiments (capacity reduction, regularization) on a small dataset
-  - `04_cnn_full_data.ipynb` – final CNN experiments on full dataset with comprehensive evaluation
-  - `05_transfer_learning.ipynb` – transfer learning with YAMNet embeddings (averaged); comparison with CNN models
-  - `06_transfer_learning_yamnet_embeddings.ipynb` – transfer learning with YAMNet embeddings (full sequence); preserves temporal information
-
-- `src/`
-
-  - (planned) Python modules for reusable data loading, preprocessing, and model code
 
 - `README.md` – this file
 
